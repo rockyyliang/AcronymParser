@@ -8,6 +8,13 @@ Example:
 python count.py testfiles/test1.txt testfiles/test2.txt
 ```
 
+Or:
+
+```bash
+#Count all files with a .tex extension in the testfiles directory
+python count.py $(ls ./testfiles | egrep .tex)
+```
+
 Results will be printed to the terminal :)
 
 
